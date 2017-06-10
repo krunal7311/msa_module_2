@@ -1,5 +1,4 @@
 ﻿using Xamarin.Forms;
-
 namespace Tabs
 {
     public partial class App : Application
@@ -10,7 +9,7 @@ namespace Tabs
 
             MainPage = new TabsPage();
         }
-
+	
         protected override void OnStart()
         {
             // Handle when your app starts

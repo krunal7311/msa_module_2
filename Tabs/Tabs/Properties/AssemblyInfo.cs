@@ -1,4 +1,4 @@
-﻿using System.Reflection;
+﻿﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 
 // Information about this assembly is defined by the following attributes. 
@@ -13,6 +13,8 @@ using Xamarin.Forms.Xaml;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
+//[assembly: UsesFeature("android.hardware.camera", Required = false)]
+//[assembly: UsesFeature("android.hardware.camera.autofocus", Required = false)]
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,
 // and "{Major}.{Minor}.{Build}.*" will update just the revision.
